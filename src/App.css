@@ -9,10 +9,17 @@ body {
 .static-logo {
   height: 150px;
   cursor: pointer;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  top: 20px;
+  left: 0;
+  right: 0;
+  z-index: 99;
 }
 
 .menu {
-  position: absolute;
+  position: fixed;
   margin-left: auto;
   margin-right: auto;
   top: 145px;
@@ -22,6 +29,7 @@ body {
   font-size: 35px;
   text-shadow: 0 0 5px rgba(0, 0, 0, 0.42);
   cursor: pointer;
+  z-index: 99;
 }
 
 .menu-hidden {
@@ -43,13 +51,4 @@ body {
 
 .App-header {
   color: white;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
 }

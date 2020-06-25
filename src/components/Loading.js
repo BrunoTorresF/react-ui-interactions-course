@@ -2,9 +2,12 @@ import React from 'react';
 import './Loading.css';
 
 const Loading = () => (
-  <div className="spinner">
-    <div className="double-bounce1"></div>
-    <div className="double-bounce2"></div>
+  <div>
+    <div className="spinner">
+      <div className="double-bounce1"></div>
+      <div className="double-bounce2"></div>
+    </div>
+    <h1>After load, begin scrolling</h1>
   </div>
 );
 
